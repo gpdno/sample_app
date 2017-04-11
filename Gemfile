@@ -18,6 +18,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'bcrypt', '~> 3.1', '>= 3.1.11'
+gem 'will_paginate', '~> 3.1', '>= 3.1.5'
+gem 'bootstrap-will_paginate', '~> 0.0.11'
 
 group :development, :test do
   #gem 'sqlite3', '1.3.12'
@@ -29,6 +31,8 @@ group :development do
   gem 'listen',                '3.0.8'
   gem 'spring',                '1.7.2'
   gem 'spring-watcher-listen', '2.0.0'
+  gem 'faker', '~> 1.7', '>= 1.7.3' # creates semi-realistic fake data for testing the database
+
 end
 
 group :test do
